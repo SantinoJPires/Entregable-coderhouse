@@ -1,0 +1,153 @@
+//main de nosotros
+.parposicionados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .nombre {
+        color: rgb(13, 13, 155);
+        font-size: 22px;
+    }
+
+    .tamañoiconos {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    
+@media only screen and (max-width: 400px) {
+    .tamañoiconos {
+        height: 6rem;
+        width: 6rem;
+    }
+}
+}
+//fin de main de nosotros
+
+//cards
+
+.cardalinear {
+
+    .cardsorden {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .cardmejora {
+            margin-left: 20px;
+            background-color: rgb(107, 179, 139);
+            margin-top: 10px;
+
+            .imgcardforma {
+                height: 18rem;
+                width: 100%;
+            }
+
+            .card-title {
+                text-align: center;
+            }
+
+            .card-body {
+
+                .btn-primary {
+
+                    &:hover{
+                        background-color: rgb(0, 0, 255);
+                    }
+
+                    display: flex;
+                    background-color: rgb(0, 0, 0);
+                    border-color: rgb(255, 255, 255);
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+
+//fin de cards
+
+//sucursales
+
+.posicionsucursales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .sucursal {
+        margin: 20px;
+        border: solid 2px;
+        width: 400px;
+        height: 300px;
+
+    }
+
+    @media only screen and (max-width: 500px) {
+        .sucursal {
+            width: 250px;
+            height: 150px;
+        }
+    }
+}
+
+
+.divsucursales {
+
+    .atajosucursal {
+
+        text-decoration: none;
+        color: rgb(0, 94, 0);
+        font-size: 3rem;
+
+        &:hover {
+            color: rgb(0, 0, 255);
+        }
+
+    }
+}
+
+//fin sucursales
+
+//carrusel sillones
+
+.margencarruselsillones {
+
+    margin: 2rem 8rem;
+    border: solid 5px;
+    border-style: solid;
+     
+    
+.modeloletracarrusel {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+    
+    .tamañoimagencarrusel {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .margencarruselsillones {
+        margin: 2rem 5rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .margencarruselsillones {
+        margin: 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .margencarruselsillones {
+        margin: 1rem 0rem;
+    }
+}
+
+
+//fin de carrusel sillones
+

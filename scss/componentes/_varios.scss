@@ -1,0 +1,61 @@
+//global
+* {
+    font-family: 'Nunito', sans-serif;
+}
+//globalfin
+
+//modificaciones de textos varios
+
+.conjuntoprimertexto {
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 20px;
+}
+
+
+.primertexto {
+    display: grid;
+    row-gap: 0px;
+}
+
+.letragrande {
+    font-size: 30px;
+}
+
+.tituloespecial {
+    justify-content: left;
+    color: rgb(0, 94, 0);
+    margin-left: 2rem;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    font-family: sans-serif;
+}
+
+.textonosotros {
+    text-shadow: 1px;
+    text-align: center;
+    margin: 3rem 5rem;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+    .textonosotros {
+        font-size: 18px;
+    }
+}
+
+
+.aviso {
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+.cambiarcolorazul :hover {
+    color: rgb(0, 0, 255);
+}
+
+
+
+//fin de modificaciones de textos varios
